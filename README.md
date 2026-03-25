@@ -2,34 +2,70 @@
 
 SecureLab is an offline reverse engineering training environment designed to teach static analysis, runtime analysis, control-flow tracing and key reconstruction techniques through 24 progressive levels.
 
-Features:
+The trainer simulates real-world reverse engineering workflows and introduces structured analysis strategies commonly used in software protection research, CTF challenges and binary inspection tasks.
 
-* 24 structured reverse engineering levels
-* adaptive hint system
-* XP progression and achievements
-* study mode and strategy mode
-* daily challenge generator
-* cryptographically signed completion certificate
-* offline certificate verification
-* hardware-bound integrity protection
-* anti-tampering save validation
+Standalone Windows x64 executable available in the Releases section.
 
-Skills trained:
+---
 
-* string extraction
-* Base64 / hex decoding
-* XOR reconstruction
-* control-flow analysis
-* SHA256 validation logic
-* machine fingerprinting
-* debugger-aware logic
-* state machine reconstruction
-* interpreter analysis
-* runtime key generation
+## Features
 
-Certificate system:
+- 24 structured reverse engineering challenge levels
+- adaptive hint system based on solving attempts
+- XP progression and achievement tracking
+- study mode with guided explanations
+- strategy mode with structured solving methodology
+- daily challenge generator
+- cryptographically signed completion certificate
+- offline certificate verification support
+- hardware-bound certificate integrity protection
+- anti-tampering progress validation system
 
-SecureLab generates a signed PDF certificate with metadata verification support. Certificates are hardware-bound and include integrity signatures to prevent forgery.
+---
 
-Author:
-lionv56
+## Skills Trained
+
+SecureLab covers practical reverse engineering techniques including:
+
+- plaintext string discovery
+- Base64 decoding
+- hexadecimal decoding
+- XOR reconstruction
+- control-flow tracing
+- SHA256 comparison logic
+- license validation structures
+- machine fingerprint analysis
+- debugger-aware execution paths
+- state machine reconstruction
+- interpreter-style logic tracing
+- runtime-generated key analysis
+
+---
+
+## Certificate System
+
+After completing all 24 levels, SecureLab generates a signed PDF completion certificate including:
+
+- unique certificate ID
+- cryptographic verification signature
+- hardware fingerprint binding
+- username binding
+- timestamp validation
+- offline verification metadata support
+
+Certificates can be verified locally using the built-in verification tool inside the SecureLab application.
+
+---
+
+## Requirements
+
+- Windows x64
+- No .NET installation required
+- Fully standalone executable
+
+---
+
+## Author
+
+lionv56  
+https://github.com/lionv56
